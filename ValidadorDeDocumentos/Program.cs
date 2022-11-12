@@ -1,10 +1,5 @@
 ﻿using Caelum.Stella.CSharp.Validation;
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ValidadorDeDocumentos
 {
@@ -23,15 +18,13 @@ namespace ValidadorDeDocumentos
 
         private static void ValidarCPF(string cpf)
         {
-            try
+            if (new CPFValidator().IsValid(cpf))
             {
-                new CPFValidator().AssertValid(cpf);
                 Debug.WriteLine("CPF válido: " + cpf);
-
             }
-            catch (Exception exc)
+            else
             {
-                Debug.WriteLine("CPF inválido: " + cpf + " : " + exc);
+                Debug.WriteLine("CPF inválido: " + cpf);
             }
         }
     }
