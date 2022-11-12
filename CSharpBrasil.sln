@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ValidadorDocs", "ValidadorD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidadorDeDocumentos", "ValidadorDeDocumentos\ValidadorDeDocumentos.csproj", "{F9A791AA-2450-49C7-BF49-D537D381BA74}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datas", "Datas\Datas.csproj", "{61BF9B25-37EE-4FDE-88F1-3D1D231D9D6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{F9A791AA-2450-49C7-BF49-D537D381BA74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9A791AA-2450-49C7-BF49-D537D381BA74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9A791AA-2450-49C7-BF49-D537D381BA74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61BF9B25-37EE-4FDE-88F1-3D1D231D9D6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61BF9B25-37EE-4FDE-88F1-3D1D231D9D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61BF9B25-37EE-4FDE-88F1-3D1D231D9D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61BF9B25-37EE-4FDE-88F1-3D1D231D9D6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
