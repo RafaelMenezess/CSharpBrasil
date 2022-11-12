@@ -1,9 +1,10 @@
-﻿using Caelum.Stella.CSharp.Validation;
+﻿using Caelum.Stella.CSharp.Format;
+using Caelum.Stella.CSharp.Validation;
 using System.Diagnostics;
 
 namespace ValidadorDeDocumentos
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -27,6 +28,20 @@ namespace ValidadorDeDocumentos
             ValidarTitulo(titulo1);
             ValidarTitulo(titulo2);
 
+            Debug.WriteLine(cpf1);
+            string cpfFormatado = new CPFFormatter().Format(cpf1);
+            Debug.WriteLine(cpfFormatado);
+            Debug.WriteLine(new CPFFormatter().Unformat(cpfFormatado));
+
+            Debug.WriteLine(cnpj1);
+            string cnpjFormatado = new CNPJFormatter().Format(cnpj1);
+            Debug.WriteLine(cnpjFormatado);
+            Debug.WriteLine(new CNPJFormatter().Unformat(cnpjFormatado));
+
+            Debug.WriteLine(titulo1);
+            string tituloFormatado = new TituloEleitoralFormatter().Format(titulo1);
+            Debug.WriteLine(tituloFormatado);
+            Debug.WriteLine(new TituloEleitoralFormatter().Unformat(tituloFormatado));
         }
 
         private static void ValidarTitulo(string titulo)
