@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumerosPorExtenso", "Numero
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dinheiro", "Dinheiro\Dinheiro.csproj", "{B598E879-29E4-4057-B9E0-FFB7F2C7F438}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CEP", "CEP\CEP.csproj", "{F685BD0F-D30B-4138-809A-67E2A0A49C31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{B598E879-29E4-4057-B9E0-FFB7F2C7F438}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B598E879-29E4-4057-B9E0-FFB7F2C7F438}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B598E879-29E4-4057-B9E0-FFB7F2C7F438}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F685BD0F-D30B-4138-809A-67E2A0A49C31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F685BD0F-D30B-4138-809A-67E2A0A49C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F685BD0F-D30B-4138-809A-67E2A0A49C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F685BD0F-D30B-4138-809A-67E2A0A49C31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
